@@ -1,0 +1,76 @@
+/* Eigen stijl van dit vak (bovenop core.css). */
+.tw-w .schuif input[type=range] { height: 40px; }
+.tw-w .btn, .tw-w .opt { min-height: 44px; }
+.tw-w .eco-tabs { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 6px; margin: 4px 0 12px; }
+.tw-w .eco-tabs .btn { font-size: 14px; padding: 8px 6px; }
+.tw-w .eco-tabs .btn.aan { background: var(--accent); border-color: var(--accent); color: var(--op-accent, #fff); outline: 0; }
+.tw-w .opdr { border: 1.5px dashed var(--accent); border-radius: 14px; padding: 12px; margin: 14px 0 4px; background: var(--card); }
+.tw-w .opdr-kop { font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); }
+.tw-w .opdr-q { font-weight: 600; margin: 6px 0 10px; }
+.tw-w .opdr .opt { margin: 6px 0; padding: 10px 12px; font-size: 15px; }
+.tw-w .eco-fb { border-radius: 12px; padding: 10px 12px; margin: 10px 0 0; background: var(--accent-soft); font-size: 15px; }
+.tw-w .eco-fb.ok { background: var(--good-soft); }
+.tw-w .eco-fb.nok { background: var(--bad-soft); }
+.tw-w .eco-fb .btn { margin-top: 8px; }
+.tw-w .eco-in { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.tw-w .eco-in input { width: 110px; min-height: 44px; font-size: 17px; }
+.tw-w .eco-in .eenh { color: var(--muted); font-weight: 600; }
+.tw-w .mini { width: 100%; border-collapse: collapse; font-size: 14px; margin: 8px 0; }
+.tw-w .mini th, .tw-w .mini td { padding: 6px 4px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+.tw-w .mini th:first-child, .tw-w .mini td:first-child { text-align: left; white-space: normal; }
+.tw-w .mini th { color: var(--muted); font-weight: 600; }
+.tw-w .mini tr.tot td { font-weight: 700; border-bottom: 0; }
+.tw-w .mini input { width: 64px; min-height: 40px; text-align: right; padding: 6px; }
+.tw-w .mini td.goed input { border-color: var(--good); background: var(--good-soft); }
+.tw-w .mini td.fout input { border-color: var(--bad); background: var(--bad-soft); }
+.tw-w .stapper { display: grid; grid-template-columns: 1fr 44px 76px 44px; gap: 6px; align-items: center; margin: 6px 0; font-size: 15px; }
+.tw-w .stapper .btn { padding: 0; height: 44px; font-size: 20px; line-height: 1; }
+.tw-w .stapper output { text-align: center; font-weight: 700; color: var(--accent); }
+.tw-w .kern-getal { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 10px 0; }
+.tw-w .kern-getal.drie { grid-template-columns: repeat(3, 1fr); }
+.tw-w .kern-getal > div { background: var(--accent-soft); border-radius: 12px; padding: 8px 10px; }
+.tw-w .kern-getal small { display: block; color: var(--muted); font-size: 12px; line-height: 1.3; }
+.tw-w .kern-getal b { font-size: 1.15rem; }
+.tw-w .kern-getal .op { color: var(--good); }
+.tw-w .kern-getal .neer { color: var(--bad); }
+.tw-w .noot { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
+.tw-w .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.tw-w .chips .chip { min-height: 44px; }
+.tw-w .chips .chip.aan { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 0 0 2px var(--accent); }
+.tw-w .persoon { background: var(--accent-soft); border-radius: 14px; padding: 14px; font-size: 1.05rem; font-weight: 600; margin: 10px 0; min-height: 84px; }
+.tw-w .antw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.tw-w .antw-grid .btn { font-size: 14px; padding: 8px 6px; }
+.tw-w .antw-grid .btn.goed { border-color: var(--good); background: var(--good-soft); }
+.tw-w .antw-grid .btn.fout { border-color: var(--bad); background: var(--bad-soft); }
+.tw-w .stroom { font-size: 13px; line-height: 1.3; }
+.tw-w .stroom .vak { border: 1.5px solid var(--line); border-radius: 10px; padding: 6px; margin: 4px 0; background: var(--card); }
+.tw-w .stroom .vak > b { display: block; }
+.tw-w .stroom .vak small { color: var(--muted); }
+.tw-w .stroom .rij { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.tw-w .stroom .rij.breed { grid-template-columns: 2fr 1fr; }
+.tw-w .stroom .vak.licht { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 0 0 2px var(--accent); }
+.tw-w .stroom .vak.w0 { border-left: 5px solid var(--good); }
+.tw-w .stroom .vak.w1 { border-left: 5px solid var(--bad); }
+.tw-w .stroom .vak.w2 { border-left: 5px solid var(--oranje); }
+.tw-w .stroom .vak.w3 { border-left: 5px solid var(--muted); }
+.tw-w .meter { position: relative; height: 26px; border-radius: 99px; overflow: hidden; display: flex; margin: 26px 0 6px; }
+.tw-w .meter i { display: block; height: 100%; }
+.tw-w .meter-wijzer { position: relative; height: 0; }
+.tw-w .meter-wijzer span { position: absolute; top: -58px; transform: translateX(-50%); font-weight: 800; font-size: 14px; white-space: nowrap; }
+.tw-w .meter-wijzer span::after { content: ""; display: block; width: 3px; height: 34px; background: var(--text); margin: 0 auto; border-radius: 2px; }
+.tw-w .prijskaart { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0; }
+.tw-w .prijskaart > div { border: 1.5px solid var(--line); border-radius: 12px; padding: 8px 10px; }
+.tw-w .prijskaart .win { border-color: var(--good); background: var(--good-soft); }
+.tw-w .prijskaart small { display: block; color: var(--muted); font-size: 12px; line-height: 1.3; }
+.tw-w .prijskaart b { font-size: 1.2rem; }
+.tw-w h4 { margin: 14px 0 4px; font-size: 15px; }
+.fig .vlak4 { fill: var(--oranje); fill-opacity: .22; stroke: none; }
+.fig .grijs { fill: var(--muted); fill-opacity: .25; stroke: none; }
+.fig .dik2 { stroke: var(--bad); stroke-width: 6; stroke-linecap: round; fill: none; }
+.fig .hit { fill: transparent; stroke: none; }
+.fig .doos { fill: var(--card); stroke: var(--muted); stroke-width: 1.2; }
+.fig .doos-a { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; }
+.fig .pijl { stroke: var(--muted); stroke-width: 1.5; fill: none; }
+.fig .mens { fill: var(--accent); }
+.fig .mens2 { fill: var(--oranje); }
+.fig .stip2 { stroke: var(--oranje); stroke-width: 2; stroke-dasharray: 6 4; fill: none; }
